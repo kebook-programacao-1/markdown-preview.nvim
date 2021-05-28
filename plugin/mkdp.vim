@@ -96,7 +96,7 @@ endif
 
 " recognized filetypes
 if !exists('g:mkdp_filetypes')
-  let g:mkdp_filetypes = ['markdown']
+  let g:mkdp_filetypes = ['markdown', 'gitcommit']
 endif
 
 function! s:init_command() abort
